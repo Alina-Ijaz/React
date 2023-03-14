@@ -15,12 +15,15 @@
     border: 1px solid white;
 }
 .left-panel {
-    flex: 3;
+    flex: 2;
 }
 .middle-panel {
-    flex: 7;
+    flex: 8;
 }
 .row {
     display: flex;
     height: 100%;
+}
+.intro{
+    background-color: navy;
 }

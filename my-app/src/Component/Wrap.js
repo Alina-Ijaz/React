@@ -8,7 +8,7 @@ function Wrap() {
             </div>
             </div>
             <div className="middle-panel box">
-
+            
             </div>
         </div>
     </div>)
