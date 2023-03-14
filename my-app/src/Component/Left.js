@@ -7,8 +7,8 @@ function Left() {
         backgroundColor: 'navy',
         width: '260px',
         height: '695px',
-        flexDirection:'column',
-        display:'flex'
+       
+       
       }}
     />
   );

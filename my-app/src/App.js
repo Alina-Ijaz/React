@@ -1,3 +1,4 @@
+import Wrap from "./Component/Wrap";
 import Left from "./Component/Left";
 import Right from "./Component/Right";
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
     <Left/>
     <Right/>
+    <Wrap/>
     </>
   );
 }

@@ -7,8 +7,8 @@ function Right() {
         backgroundColor: '#FAF9EC',
         width: '260px',
         height: '695px',
-        float: 'right',
-        flexDirection:'row',
+        float: 'left',
+        
       
       }}
     />
