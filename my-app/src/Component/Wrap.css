@@ -1,4 +1,26 @@
-.rowC{
-    display:flex;
-     flex-direction:row;
-    }
+.content-container {
+    padding: 10%;
+    height: 100vh;
+    background-color: lightgrey;
+    font-size: 64px;
+}
+.left-panel {
+    background-color: navy;
+}
+.middle-panel {
+    background-color: #FAF9EC;
+}
+
+.box {
+    border: 1px solid white;
+}
+.left-panel {
+    flex: 3;
+}
+.middle-panel {
+    flex: 7;
+}
+.row {
+    display: flex;
+    height: 100%;
+}

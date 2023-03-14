@@ -1,28 +1,16 @@
-import React from 'react';
-import Left from './Left';
-import Right from './Right';
+import "./Wrap.css"
 function Wrap() {
-    class ContainerRow extends React.Component {
-        render() {
-            return (
+    return (<div className="content-container">
+        <div className="row">
+            <div className="left-panel box">
+            <div className="overlay">
+                <img src="./R.png" alt="image" width="100%" />
+            </div>
+            </div>
+            <div className="middle-panel box">
 
-                <div className='rowC'>
-                    <div
-                        style={{
-                            display: 'flex',
-                            flexDirection: 'row',
-                            
-
-                        }}
-                    />
-                    <Left />
-                    <Right />
-                </div>
-            );
-        }
-    }
-
-
+            </div>
+        </div>
+    </div>)
 }
-
 export default Wrap;
