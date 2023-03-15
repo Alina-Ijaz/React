@@ -8,7 +8,10 @@ function Wrap() {
             </div>
             </div>
             <div className="middle-panel box">
-            
+                <div className="sub-middle-pannel">
+                 <h3 style={{ color: "navy", marginTop: '-45px' }}>Alina Ijaz</h3>
+                </div>
+                
             </div>
         </div>
     </div>)
