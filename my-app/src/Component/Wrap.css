@@ -4,40 +4,46 @@
     background-color: whitesmoke;
     font-size: 64px;
 }
+
 .left-panel {
     background-color: navy;
     height: 100vh;
 }
+
 .middle-panel {
     background-color: #d4d4d3;
- height: 100vh;
+    height: 100vh;
 }
 
 
 .box {
     border: 1px solid white;
 }
+
 .left-panel {
     flex: 2;
 }
+
 .middle-panel {
     flex: 8;
 }
+
 .row {
     display: flex;
     height: 100%;
 }
 
-.sub-middle-pannel{
+.sub-middle-pannel {
     background-color: #319bc5;
     padding: 10%;
     height: 1vh;
     margin-top: 70px;
     margin-left: -2px;
 }
-.overlay{
+
+.overlay {
     margin-top: 66px;
     width: 205px;
     margin-left: 19px;
-  
+
 }
