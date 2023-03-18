@@ -5,10 +5,7 @@
     font-size: 64px;
 }
 
-.left-panel {
-    background-color: navy;
-    height: 100vh;
-}
+
 
 .middle-panel {
     background-color: #d4d4d3;
@@ -20,9 +17,7 @@
     border: 1px solid white;
 }
 
-.left-panel {
-    flex: 2;
-}
+
 
 .middle-panel {
     flex: 8;
@@ -41,9 +36,23 @@
     margin-left: -2px;
 }
 
+.left-panel {
+    box-sizing: border-box;
+    flex: 2;
+    background-color: navy;
+    height: 100vh;
+}
+
 .overlay {
     margin-top: 66px;
     width: 205px;
     margin-left: 19px;
+    transition: transform .2s;
+}
 
+
+
+.left-panel :hover {
+    opacity: 0.8;
+    transform: scale(1.1);
 }
