@@ -37,10 +37,10 @@
 }
 
 .left-panel {
-    box-sizing: border-box;
+   
     flex: 2;
     background-color: navy;
-    height: 100vh;
+    
 }
 
 .overlay {
