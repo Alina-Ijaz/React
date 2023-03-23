@@ -3,8 +3,7 @@ import Wrap from "./Component/Wrap";
 function App() {
   return (
     <>
-   
-    <Wrap/>
+   <Wrap />
     </>
   );
 }
