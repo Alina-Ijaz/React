@@ -1,0 +1,11 @@
+.overlay {
+    margin-top: 66px;
+    width: 200px;
+    margin-left: 19px;
+    transition: transform .2s;
+}
+
+.overlay :hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
