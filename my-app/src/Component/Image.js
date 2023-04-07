@@ -1,4 +1,5 @@
-function App() {
+import "./Image.css"
+function Image() {
     return (
         <div className="overlay">
             <img src="./R.png" alt="image" width="100%" />
@@ -6,4 +7,4 @@ function App() {
     );
 }
 
-export default App;
+export default Image;
